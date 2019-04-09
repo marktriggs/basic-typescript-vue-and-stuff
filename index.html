@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <script src="/node_modules/requirejs/require.js"></script>
+
+        <script>
+            require.config({
+              paths: {
+                "vue": "/node_modules/vue/dist/vue.min",
+                "jquery": "/node_modules/jquery/dist/jquery.min",
+              }
+            });
+
+            require(["main"]);
+        </script>
+    </body>
+</html>
